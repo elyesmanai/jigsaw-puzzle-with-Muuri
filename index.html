@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Jigsaw with Muuri Grid</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+
+	<div class="grid">
+
+			<div class="item ">
+				<div class="item-content"><img src="img/1.png" width="100%" alt=""></div>
+			</div>
+			<div class="item ">
+				<div class="item-content"><img src="img/2.png" width="100%" alt=""></div>
+			</div>
+			<div class="item ">
+				<div class="item-content"><img src="img/3.png" width="100%" alt=""></div>
+			</div>
+		
+
+			<div class="item ">
+				<div class="item-content"><img src="img/4.png" width="100%" alt=""></div>
+			</div>
+			<div class="item ">
+				<div class="item-content"><img src="img/5.png" width="100%" alt=""></div>
+			</div>
+			<div class="item ">
+				<div class="item-content"><img src="img/6.png" width="100%" alt=""></div>
+			</div>
+		
+
+			<div class="item ">
+				<div class="item-content"><img src="img/7.png" width="100%" alt=""></div>
+			</div>
+			<div class="item ">
+				<div class="item-content"><img src="img/8.png" width="100%" alt=""></div>
+			</div>
+			<div class="item ">
+				<div class="item-content"><img src="img/9.png" width="100%" alt=""></div>
+			</div>
+
+	</div>
+</body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.1/web-animations.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/muuri/0.5.3/muuri.min.js"></script>
+
+	<script>
+		const grid = new Muuri(".grid", {
+			dragEnabled: true
+		});
+	</script>
+
+</html>
